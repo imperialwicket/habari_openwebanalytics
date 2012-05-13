@@ -1,0 +1,7 @@
+OpenWebAnalytics is an open source web analytics application. It is self-hosted and requires LAMP (or equivalent) functionality. More details are available at http://www.openwebanalytics.com/
+
+This plugin embeds the OpenWebAnalytics Javascript tracking code in the theme footer.
+
+After activation, you must configure your OpenWebAnalytics url and the OpenWebAnalytics site id representing your domain (this is available in your OpenWebAnalytics administrative interface). You may also update the configuration to track users who are logged in to the site, by default the tracking of logged in users is disabled.
+
+This plugin is based heavily on code from the Piwik Habari Plugin by AndyC.

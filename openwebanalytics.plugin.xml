@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>OpenWebAnalytics</name>
+	<version>0.8.1</version>
+	<url>https://github.com/imperialwicket/habari_openwebanalytics</url>
+	<author url="http://imperialwicket.com">imperialwicket</author>
+	<license url="http://mit-license.org/">MIT License</license>
+	<description><![CDATA[Automatically adds the OpenWebAnalytics tracking code to the theme footer.]]></description>
+	<copyright>2012</copyright>
+
+	<help>
+		<value><![CDATA[
+			<p>OpenWebAnalytics is an open source web analytics application. It is self-hosted and requires LAMP (or equivalent) functionality. More details are available at <a href="http://www.openwebanalytics.com/">OpenWebAnaylitcs</a></p>
+			<p>This plugin embeds the OpenWebAnalytics Javascript tracking code in the theme footer.</p>
+			<p>After activation, you must configure your OpenWebAnalytics url and the OpenWebAnalytics site id representing your domain (this is available in your OpenWebAnalytics administrative interface). You may also update the configuration to track users who are logged in to the site, by default the tracking of logged in users is disabled.</p>
+			<p>This plugin is based heavily (entirely) on code from the Piwik Habari Plugin by AndyC.</p>
+		]]></value>
+	</help>
+</pluggable>
