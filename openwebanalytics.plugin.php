@@ -61,7 +61,7 @@ class OpenWebAnalytics extends Plugin
 		if ( $siteurl{strlen($siteurl)-1} != '/' ) {
  			$siteurl .= '/'; 
 		}
-		$sitenum = Options::get('owa__siteid');
+		$siteid = Options::get('owa__siteid');
 
 		echo <<<EOD
 <!-- Start Open Web Analytics Tracker -->
